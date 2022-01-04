@@ -1,8 +1,8 @@
-// 正転と逆転を2秒おきに繰り返すサンプル
-int E1 = 10;
-int M1 = 12;
-int E2 = 11;
-int M2 = 13;
+// Sample repeating forward and reverse rotation every 2 seconds.
+#define E1 10
+#define M1 12
+#define E2 11
+#define M2 13
 
 void setup() {
   pinMode(M1, OUTPUT);
